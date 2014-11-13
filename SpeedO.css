@@ -1,0 +1,193 @@
+body {
+    background: -webkit-linear-gradient(#454545, #dedede);
+}
+
+.square {
+    display: block;
+    margin-top: 3px;
+    width: 15vw;
+    font-size: 22px;
+}
+
+#containerMPH {
+    left: 10vw;
+    top: 0;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+}
+
+.content2 {
+    position: absolute;
+    right: 2vw;
+}
+
+.content3 {
+    position: absolute;
+    right: 2vw;
+    top: 15%;
+}
+
+.content4 {
+    position: absolute;
+    right: 2vw;
+    top: 25%;
+}
+
+.level {
+    position: absolute;
+    z-index: -1;
+}
+
+#topperMPH {
+    position: relative;
+    left: 10vw;
+    top: 100vh;
+    height: 50vh;
+    background-color: #9b9b9b;
+    color: #9b9b9b;
+    -webkit-transition: height .500s;
+    transition: height .500s;
+}
+
+#mph {
+    position: relative;
+    left: 10vw;
+    -webkit-transition: height .500s;
+    transition: height .500s;
+    background: -webkit-linear-gradient(#32cb32, green, blue);
+    height: 50vh;
+}
+
+#containerKPH {
+    left: 15vw;
+    top: 0;
+}
+
+#topperKPH {
+    position: relative;
+    left: 20vw;
+    top: 50vh;
+    height: 50vh;
+    background-color: #9b9b9b;
+    color: #9b9b9b;
+    -webkit-transition: height .500s;
+    transition: height .500s;
+}
+
+#kph {
+    position: relative;
+    left: 20vw;
+    -webkit-transition: height .500s;
+    transition: height .500s;
+    background: -webkit-linear-gradient(yellow, orange, red);
+    height: 50vh;
+}
+
+#markers {
+    display: block;
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    font-size: 24px;
+}
+
+#left-marker200 {
+    height: 10vh;
+}
+
+#left-marker180 {
+    height: 10vh;
+}
+
+#left-marker160 {
+    height: 10vh;
+}
+
+#left-marker140 {
+    height: 10vh;
+}
+
+#left-marker120 {
+    height: 10vh;
+}
+
+#left-marker100 {
+    height: 10vh;
+}
+
+#left-marker80 {
+    height: 10vh;
+}
+
+#left-marker60 {
+    height: 10vh;
+}
+
+#left-marker40 {
+    height: 10vh;
+}
+
+#left-marker20 {
+    height: 10vh;
+}
+
+#Guages {
+    left: 10vw;
+    top: 0;
+    width: 30vw;
+    height: 100vh;
+}
+
+#DigitalReadouts {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    width: 50vw;
+    height: 100vh;
+}
+
+#speedInfo {
+    position: relative;
+}
+
+#SpeedReadoutMPH {
+    position: relative;
+    font-size: 64px;
+    text-align: right;
+    vertical-align: middle;
+    font-family: optima;
+    color: #c8c6c9;
+}
+
+#SpeedReadoutKPH {
+    position: relative;
+    font-size: 36px;
+    text-align: right;
+    vertical-align: middle;
+    font-family: optima;
+    color: #ff8300;
+}
+
+#Direction {
+    position: relative;
+    font-size: 72px;
+    text-align: right;
+    vertical-align: middle;
+    font-family: optima;
+    color: #dcdcdc;
+}
+
+#arrow-dir {
+    position: relative;
+    margin-left: 75vw;
+    top: 50%;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    
+    border-bottom: 80px solid black;
+}
