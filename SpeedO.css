@@ -48,15 +48,15 @@ body {
     height: 50vh;
     background-color: #9b9b9b;
     color: #9b9b9b;
-    -webkit-transition: height .500s;
-    transition: height .500s;
+    -webkit-transition: height .250s;
+    transition: height .250s;
 }
 
 #mph {
     position: relative;
     left: 10vw;
-    -webkit-transition: height .500s;
-    transition: height .500s;
+    -webkit-transition: height .250s;
+    transition: height .250s;
     background: -webkit-linear-gradient(#32cb32, green, blue);
     height: 50vh;
 }
@@ -73,15 +73,15 @@ body {
     height: 50vh;
     background-color: #9b9b9b;
     color: #9b9b9b;
-    -webkit-transition: height .500s;
-    transition: height .500s;
+    -webkit-transition: height .250s;
+    transition: height .250s;
 }
 
 #kph {
     position: relative;
     left: 20vw;
-    -webkit-transition: height .500s;
-    transition: height .500s;
+    -webkit-transition: height .250s;
+    transition: height .250s;
     background: -webkit-linear-gradient(yellow, orange, red);
     height: 50vh;
 }
@@ -94,43 +94,7 @@ body {
     font-size: 24px;
 }
 
-#left-marker200 {
-    height: 10vh;
-}
-
-#left-marker180 {
-    height: 10vh;
-}
-
-#left-marker160 {
-    height: 10vh;
-}
-
-#left-marker140 {
-    height: 10vh;
-}
-
-#left-marker120 {
-    height: 10vh;
-}
-
-#left-marker100 {
-    height: 10vh;
-}
-
-#left-marker80 {
-    height: 10vh;
-}
-
-#left-marker60 {
-    height: 10vh;
-}
-
-#left-marker40 {
-    height: 10vh;
-}
-
-#left-marker20 {
+.left-marker {
     height: 10vh;
 }
 
